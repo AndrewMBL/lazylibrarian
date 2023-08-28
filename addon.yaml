@@ -3,6 +3,5 @@ version: 1.0.0
 description: A Home Assistant addon for LazyLibrarian.
 dependencies:
   - docker
-  - python3-pip
   - nginx
 url: https://github.com/thesuperben/lazylibrarian-addon
