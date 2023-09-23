@@ -1,5 +1,5 @@
 name: lazylibrarian
-version: latest
+version: 1.0.0
 description: A Home Assistant addon for LazyLibrarian.
 dependencies:
   - docker
