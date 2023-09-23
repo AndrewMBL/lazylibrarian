@@ -58,7 +58,7 @@
       "PGID": "0",
       "PUID": "0"
     },
-    "image": "linuxserver/lazylibrarian",
+    "image": "linuxserver.io/lazylibrarian",
     "ingress": true,
     "ingress_entry": "lazylibrarian",
     "init": false,
@@ -98,5 +98,5 @@
     },
     "slug": "lazylibrarian",
     "url": "https://github.com/thesuperben/lazylibrarian",
-    "version": "latest"
+    "version": "1.0.0"
   }
