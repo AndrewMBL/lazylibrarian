@@ -4,7 +4,7 @@
       "amd64",
       "armv7"
     ],
-    "codenotary": "b.kirss@gmail.com",
+    "codenotary": "thesuperbenj@gmail.com",
     "description": "Library manager for organizing and searching ebooks",
     "devices": [
       "/dev/dri",
