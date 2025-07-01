@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+ARG BUILD_FROM = linuxserver/lazylibrarian
 FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
