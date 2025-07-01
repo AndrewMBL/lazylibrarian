@@ -20,7 +20,7 @@ map:
   - type: ssl
   - type: addon_config
     read_only: False
-image: linuxserver/lazylibrarian
+image: "linuxserver/lazylibrarian"
 ingress: true,
 ingress_entry: "lazylibrarian",
 init: false
