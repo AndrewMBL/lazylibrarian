@@ -1,0 +1,5 @@
+build_from:
+  armhf: linuxserver/lazylibrarian:latest
+squash: false
+args:
+  my_build_arg: xy
