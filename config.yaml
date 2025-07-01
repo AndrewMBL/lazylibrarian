@@ -1,0 +1,40 @@
+name: "LazyLibrarian"
+version: "1.0.0"
+slug: lazylibrarian
+description: >-
+  "Library manager for organizing and searching ebooks"
+arch:
+  - amd64
+  - aarch64
+  - armv7
+url: "https://lazylibrarian.gitlab.io/"
+ports:
+  5299/tcp: 5299
+ports_description:
+    5299/tcp: "web interface"
+map:
+  - type: share
+    read_only: False
+  - type: media
+    read_only: False
+  - type: ssl
+  - type: addon_config
+    read_only: False
+image: linuxserver/lazylibrarian
+ingress: true,
+ingress_entry: "lazylibrarian",
+init: false
+options:
+    PGID: 0
+    PUID: 0
+schema: 
+    PGID: int
+    PUID: int
+    TZ: str
+    cifsdomain: str
+    cifspassword: str
+    cifsusername: str
+    ingress_disabled: bool
+    localdisks: str
+    networkdisks: str
+    smbv1: bool
