@@ -4,7 +4,7 @@
       "amd64",
       "armv7"
     ],
-    "codenotary": "thesuperbenj@gmail.com",
+    "codenotary": "AndrewMBL",
     "description": "Library manager for organizing and searching ebooks",
     "devices": [
       "/dev/dri",
@@ -97,6 +97,6 @@
       "smbv1": "bool?"
     },
     "slug": "lazylibrarian",
-    "url": "https://github.com/thesuperben/lazylibrarian",
+    "url": "https://github.com/AndrewMBL/lazylibrarian",
     "version": "1.0.0"
   }
